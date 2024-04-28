@@ -1,0 +1,101 @@
+.title-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+
+  h1 {
+    color: white;
+    font-size: 48px;
+    z-index: 1;
+  }
+}
+
+svg#header {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.portrait {
+  position: absolute;
+  top: -160px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  aspect-ratio: 16/9;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.container-contact {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-top: 33em;
+  .content-contact {
+    height: 600px;
+    width: 70%;
+    margin: 10px 0 70px 0;
+    border-radius: 30px 30px 30px 30px;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 1px 3px rgba(0, 0, 0, 0.1215686275), 0 1px 2px rgba(0, 0, 0, 0.2392156863);
+    // display: grid;
+    // grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    padding: 20px;
+
+    .icon {
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .icon:hover {
+      transform: scale(1.15);
+    }
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      height: 125px;
+      width: auto;
+      // margin: 30px 0 0 15px;
+      transform: translate(-50%, -50%);
+    }
+
+    .title {
+      margin: 30px 0 0 30px;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      height: 100%;
+      justify-items: center;
+      align-items: center;
+      background-color: transparent;
+      border-radius: 0 30px 30px 0;
+      align-content: space-between;
+      div {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding: 15px;
+        // background-color: #2F3573;
+        // border-radius: 13px;
+        max-width: 80%;
+        // border-bottom: 1px solid black;
+        p {
+          font-size: 1.3em;
+          font-weight: bold;
+          color: black;
+          margin: 0;
+          // text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+          text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.25);
+
+        }
+      }
+    }
+  }
+}

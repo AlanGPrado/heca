@@ -1,0 +1,212 @@
+<app-header></app-header>
+<main>
+  <div class="presentation-container">
+    <!-- <video class="background-video" autoplay loop muted playsinline preload="auto" onloadedmetadata="true"> -->
+    <video class="background-video" [muted]="'muted'" loop autoplay>
+      <source src="assets/videos/water-treatment.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="curvy">
+      <div class="presentation">
+        <h1>Distribuciones Integrales HECA S.A. de C.V.</h1>
+        <h2>DIHECA es tu mejor opción para el tratamiento de aguas y químicos en México. Ofrecemos productos y
+          servicios de
+          alta calidad a precios competitivos, con un enfoque en la seguridad y el medio ambiente.</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container-quienes-somos">
+    <div class="content-quienes-somos">
+      <img src="assets/images/industry_plant.jpg" alt="Industry Plant">
+      <div>
+        <h1>¿Quiénes Somos?</h1>
+        <p>
+          <strong>Distribuciones Integrales HECA</strong> es una empresa creada en 2022, que
+          forma parte de un consorcio de empresas lideres en tratamiento quimico de agua
+          HIPRO-ecologicos, World Water Inc. y Rodcer Quimica de Mexico.
+          <br>
+          <br>
+          Creada para atender la división de tratamientos quimicos integrales de aguas y dar cumplimiento a las
+          normativas y legislaciones en la Republica Mexicana, para el suministro de servicio
+          tecnico especializado mediante el folio REPSE.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="container-nuestros-productos">
+    <div class="content-nuestros-productos">
+      <h1>Nuestros Productos</h1>
+      <svg class="chevron-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path
+          d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" />
+      </svg>
+      <svg class="chevron-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path
+          d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+      </svg>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="assets/images/hidraulica.jpeg" alt="">
+          <div class="image-text">
+            <p>Clarificación y Potabilización</p>
+            <a href="">MÁS INFORMACIÓN</a>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="assets/images/sistemas-de-enfriamiento.jpg" alt="">
+          <div class="image-text">
+            <p>Sistemas de Enfriamiento abiertos y cerrados</p>
+            <a href="">MÁS INFORMACIÓN</a>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="assets/images/sistemas-de-generacion-vapor.jpg" alt="">
+          <div class="image-text">
+            <p>Sistemas de Generación de Vapor y condensados</p>
+            <a href="">MÁS INFORMACIÓN</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- DIVIDER -->
+
+  <div id="carouselExample" class="carousel slide container-nuestros-productos" data-ride="carousel">
+    <div class="carousel-inner">
+      <h1 style="text-align: center; font-size: 3em;">Nuestros Productos</h1>
+      <div class="carousel-item active">
+        <div class="content-nuestros-productos">
+          <div class="grid-container">
+            <div class="grid-item">
+              <img src="assets/images/hidraulica.jpeg" class="d-block" alt="">
+              <div class="image-text">
+                <p>Clarificación y Potabilización</p>
+                <a href="">MÁS INFORMACIÓN</a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <img src="assets/images/sistemas-de-enfriamiento.jpg" class="d-block" alt="">
+              <div class="image-text">
+                <p>Sistemas de Enfriamiento abiertos y cerrados</p>
+                <a href="">MÁS INFORMACIÓN</a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <img src="assets/images/sistemas-de-generacion-vapor.jpg" class="d-block" alt="">
+              <div class="image-text">
+                <p>Sistemas de Generación de Vapor y condensados</p>
+                <a href="">MÁS INFORMACIÓN</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="content-nuestros-productos">
+          <div class="grid-container">
+            <div class="grid-item">
+              <img src="assets/images/sistemas-de-enfriamiento.jpg" class="d-block" alt="">
+              <div class="image-text">
+                <p>Sistemas de Enfriamiento abiertos y cerrados</p>
+                <a href="">MÁS INFORMACIÓN</a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <img src="assets/images/diseno-planta.jpg" class="d-block" alt="">
+              <div class="image-text">
+                <p>Diseño de plantas de tratamiento de aguas</p>
+                <a href="">MÁS INFORMACIÓN</a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <img src="assets/images/papelera.jpeg" class="d-block" alt="">
+              <div class="image-text">
+                <p>Industria de Papel</p>
+                <a href="">MÁS INFORMACIÓN</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add more carousel items here -->
+    </div>
+    <a class="carousel-control-prev" style="width: 10%;" href="#carouselExample" role="button" data-slide="prev">
+      <svg style="height: auto; width: 28px;" data-slide="prev" class="chevron-left" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 320 512">
+        <path
+          d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" />
+      </svg>
+    </a>
+    <a class="carousel-control-next" style="width: 10%;" href="#carouselExample" role="button" data-slide="next">
+      <svg style="height: auto; width: 28px;" data-slide="next" class="chevron-right" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 320 512">
+        <path
+          d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+      </svg>
+    </a>
+  </div>
+  <div class="container-mx">
+    <h1>Cobertura a nivel nacional</h1>
+    <div class="content-mx">
+      <img class="img-mx" src="assets/images/mapa-alcance.png" alt="">
+      <div class="circle-col">
+        <div class="circle-text">
+          <div class="circle" id="blue"></div>
+          <p id="blue-txt"><span class="fancy-blue">Presencia, oficinas y almacenes principales</span></p>
+        </div>
+        <div class="circle-text">
+          <div class="circle" id="sky-blue"></div>
+          <p id="sky-blue-txt"><span class="fancy-blue-sky">Presencia actual</span></p>
+        </div>
+        <div class="circle-text">
+          <div class="circle" id="green"></div>
+          <p id="green-txt"><span class="fancy-green">Crecimiento proyectado en 2024</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-clientes">
+    <div class="content-clientes">
+      <h1>Nuestros principales clientes</h1>
+      <div class="container" style="margin-top: 2em; max-width: 70%;">
+        <div class="row">
+          <div class="col">
+            <div class="scroll-container" #scrollContainer>
+              <div class="scroll-content" #scrollContent>
+                <div class="scroll-item">
+                  <img src="assets/images/img-1.png" alt="">
+                </div>
+                <div class="scroll-item">
+                  <img src="assets/images/img-2.png" alt="">
+                </div>
+                <div class="scroll-item">
+                  <img src="assets/images/img-3.png" alt="">
+                </div>
+                <div class="scroll-item">
+                  <img src="assets/images/img-4.png" alt="">
+                </div>
+                <div class="scroll-item">
+                  <img src="assets/images/img-5.png" alt="">
+                </div>
+                <div class="scroll-item">
+                  <img src="assets/images/img-6.png" alt="">
+                </div>
+                <div class="scroll-item">
+                  <img src="assets/images/img-7.png" alt="">
+                </div>
+                <div class="scroll-item">
+                  <img src="assets/images/img-8.png" alt="">
+                </div>
+                <div class="scroll-item">
+                  <img src="assets/images/img-9.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<app-footer></app-footer>
