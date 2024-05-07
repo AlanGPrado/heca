@@ -12,6 +12,10 @@
   aspect-ratio: 16/9;
 }
 
+.background-video::poster {
+  object-fit: cover;
+}
+
 @supports not (object-fit: cover) {
   .background-video {
     background-size: cover;
