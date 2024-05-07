@@ -1,23 +1,23 @@
 <footer>
   <div class="footer-container">
     <div class="logo-nav-container">
-      <div>
-        <img src="assets/images/logo_heca_bn.png" alt="">
+      <div style="cursor: pointer;" (click)="scrollToTop()">
+        <img routerLink="/" src="assets/images/logo_heca_bn.png" alt="logo_heca">
       </div>
       <div>
         <nav class="nav-list">
           <ul class="ul-left">
-            <li>
-              <a>Inicio</a>
+            <li style="display: flex;">
+              <a routerLink="/" (click)="scrollToTop()">{{ 'header.home' | translate }}</a>
             </li>
-            <li>
-              <a>Nosotros</a>
+            <li style="display: flex;" (click)="scrollToTop()">
+              <a routerLink="/nosotros">{{ 'header.about' | translate }}</a>
             </li>
-            <li>
-              <a>Productos</a>
-            </li>
-            <li>
-              <a>Contacto</a>
+            <!-- <li>
+              <a routerLink="/productos">Productos</a>
+            </li> -->
+            <li style="display: flex;" (click)="scrollToTop()">
+              <a routerLink="/contacto">{{ 'header.contact' | translate }}</a>
             </li>
           </ul>
         </nav>

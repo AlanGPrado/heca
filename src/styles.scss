@@ -27,19 +27,68 @@ ul {
   src: url('./assets/fonts/Euromode\ Bold.ttf') format('woff2');
 }
 
-@font-face {
-  font-family: 'Euromode Regular';
-  src: url('./assets/fonts/Euromode.ttf') format('woff2');
+// @font-face {
+//   font-family: 'Euromode Regular';
+//   src: url('./assets/fonts/Euromode.ttf') format('woff2');
+// }
+
+@media only screen and (max-width: 380px) {
+  .title {
+    margin-top: 20px;
+  }
+
+  .title-header {
+    margin-top: 20px;
+  }
+
+  .contact-grid p {
+    font-size: 20px !important;
+  }
+
+  .pin {
+    height: 45px !important;
+  }
+
+  .content-contact {
+    margin-top: -100px !important;
+  }
+
 }
 
+/* SMALL MOBILE STYLES */
+@media (min-width: 391px) and (max-width: 430px) {
+  // .title-header {
+  //   margin-top: -15px !important;
+  // }
 
-@media only screen and (max-width: 768px) {
+
+
+  .content-contact {
+    margin-top: 100px !important;
+  }
+
+  .contact-grid {
+    p {
+      font-size: 22px !important;
+    }
+  }
+}
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 767px) {
 
   header {
     z-index: 9 !important;
 
     .header-container {
       display: none !important;
+
+      .child-logo {
+        img {
+          width: 90px !important;
+          height: unset !important;
+        }
+      }
     }
   }
 
@@ -57,8 +106,17 @@ ul {
         display: block !important;
       }
 
-      img {
-        display: block !important;
+      .logo-mobile {
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        img {
+          display: block !important;
+          height: 90% !important;
+        }
+
       }
     }
   }
@@ -80,22 +138,33 @@ ul {
 
 
   svg {
-    // height: 250px !important;
     width: 100% !important;
-    height: 40%;
+    height: 50%;
   }
 
   #header {
-    height: 450px !important;
+    // height: 450px !important;
+    height: 370px !important;
   }
 
   .title {
     align-items: center !important;
     height: 28vh !important;
+
+    h1 {
+      font-size: 34px !important;
+      margin-top: -20px !important;
+    }
   }
 
   .title-header {
     height: 28vh !important;
+    // margin-top: unset !important;
+
+    h1 {
+      font-size: 34px !important;
+      margin-top: -20px !important;
+    }
   }
 
   .container-quienes-somos {
@@ -113,9 +182,32 @@ ul {
     }
   }
 
-  .carousel-inner {
+  .productos-title {
+    font-size: 2.5em !important;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .carousel {
     h1 {
       font-size: 2.5em !important;
+    }
+
+    .carousel-item {
+      p {
+        font-size: 18px !important;
+        text-align: center;
+        text-shadow: 0 2.5px 0 rgba(0, 0, 0, .2);
+        margin-bottom: 0 !important;
+      }
+    }
+
+    .carousel-control-prev {
+      height: 80%;
+    }
+
+    .carousel-control-next {
+      height: 80%;
     }
   }
 
@@ -247,6 +339,350 @@ ul {
       .nav-list {
         display: none !important;
       }
+    }
+  }
+
+  // PRODUCTOS MOBILE
+  .title.mobile {
+    h1 {
+      font-size: 34px !important;
+      margin-top: 10px !important;
+    }
+  }
+
+  .container-product {
+    .content-product {
+      h2 {
+        font-size: 1.2em;
+      }
+
+      .info {
+        flex-direction: column;
+
+        img {
+          width: 100% !important;
+          margin-bottom: 2em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 819px) {
+  .title.mobile>h1 {
+    font-size: 38px !important;
+    margin-top: 70px !important;
+  }
+}
+
+/* TABLET STYLES */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header {
+    z-index: 9 !important;
+
+    .header-container {
+      display: none !important;
+
+      .child-logo {
+        img {
+          width: 90px !important;
+          height: unset !important;
+        }
+      }
+    }
+  }
+
+  .productos-title {
+    font-size: 3em !important;
+  }
+
+  .header-mobile-container {
+    display: block !important;
+
+    .header-mobile-content {
+      svg {
+        display: block !important;
+      }
+
+      .logo-mobile {
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        img {
+          display: block !important;
+          height: 90% !important;
+        }
+      }
+
+      .submenu-mobile.languages {
+        right: 180px !important;
+      }
+    }
+  }
+
+  svg {
+    // height: 250px !important;
+    width: 100% !important;
+    height: 50%;
+  }
+
+  #header {
+    // height: 450px !important;
+    height: 370px !important;
+  }
+
+  .presentation-container {
+    .curvy {
+      .presentation {
+        h1 {
+          font-size: 22px !important;
+        }
+
+        h2 {
+          font-size: 18px !important;
+        }
+      }
+    }
+  }
+
+  .container-quienes-somos {
+    justify-content: center;
+
+    .content-quienes-somos {
+      flex-direction: column;
+    }
+  }
+
+  .carousel-item {
+    p {
+      font-size: 1.8rem !important;
+      text-align: center;
+      text-shadow: 0 2.5px 0 rgba(0, 0, 0, .2);
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .content-mx {
+    flex-direction: column;
+    align-items: center !important;
+  }
+
+  .footer-container {
+    .logo-nav-container {
+      gap: 0 !important;
+
+      .ul-left {
+        padding-left: 40px !important;
+      }
+    }
+  }
+
+  .title {
+    h1 {
+      margin-bottom: 140px !important;
+    }
+  }
+
+  .nosotros-content {
+    padding-top: 57vh !important;
+
+    .two-cols {
+      gap: 2.5em !important;
+
+      .icon-text {
+        h1 {
+          font-size: 1.8em !important;
+        }
+      }
+    }
+  }
+
+  .title-header {
+    h1 {
+      margin-bottom: 140px !important;
+      margin-top: 20px !important;
+    }
+  }
+
+  .icon.pin {
+    left: 0% !important;
+  }
+
+  .contact-grid {
+    p {
+      font-size: 16px !important;
+    }
+  }
+
+  .container-contact {
+    margin-top: 65vh !important;
+  }
+
+  .phone-num {
+    padding-top: 100px !important;
+  }
+
+  .email {
+    padding-top: 100px !important;
+  }
+
+  .icon.phone {
+    right: 25% !important;
+  }
+
+  .icon.www {
+    width: 95% !important;
+    left: 25% !important;
+  }
+
+  // PRODUCTOS TABLET STYLES
+  .container-product {
+    margin-top: 5vh !important;
+
+    .content-product {
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      .info {
+        flex-direction: column;
+
+        img {
+          width: 100% !important;
+          margin-bottom: 2em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1900px) {
+
+  .presentation {
+    h1 {
+      font-size: 1.6rem !important;
+    }
+
+    h2 {
+      font-size: 1.3rem !important;
+    }
+  }
+
+  .container-quienes-somos {
+    .content-quienes-somos {
+      flex-direction: column;
+    }
+  }
+
+  .content-mx {
+    flex-direction: column;
+    align-items: center !important;
+  }
+
+  .grid-container.two {
+    grid-template-columns: repeat(2, 1fr) !important;
+
+    .grid-item {
+      .d-block {
+        width: 420px !important;
+        height: auto !important;
+      }
+    }
+  }
+
+  .grid-container {
+    .d-block {
+      width: 360px !important;
+      height: 240px !important;
+    }
+  }
+
+  #header {
+    background: radial-gradient(black, transparent);
+  }
+
+  .nosotros-content {
+    padding-top: 58vh !important;
+  }
+
+  .container-contact {
+    margin-top: 65vh !important;
+  }
+
+  .title-header {
+    h1 {
+      margin-bottom: 150px;
+    }
+  }
+
+  .title {
+    h1 {
+      margin-top: 32.16px !important;
+      margin-bottom: 150px !important;
+    }
+  }
+
+  .two-cols {
+    gap: 2em !important;
+
+    .icon-text {
+      h1 {
+        font-size: 2em !important;
+        width: min-content;
+      }
+    }
+  }
+
+  // PRODUCTOS IPAD PRO STYLES
+  .container-product {
+    margin-top: 5vh !important;
+
+    .content-product {
+      .info {
+        img {
+          width: 100% !important;
+          margin-bottom: 5em;
+        }
+
+        flex-direction: column;
+      }
+    }
+  }
+
+  .menu {
+    .nav-list {
+      .ul-left {
+        padding-left: 20px !important;
+      }
+
+      .ul-right {
+        padding-right: 20px !important;
+      }
+    }
+  }
+
+  .ul-right {
+    .idiomas {
+      .submenu {
+        left: -70px !important;
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width: 912px) and (min-height: 1368px) {
+  .title {
+    h1 {
+      margin-bottom: 200px !important;
+    }
+  }
+  .title-header {
+    h1 {
+      margin-bottom: 200px !important;
     }
   }
 }

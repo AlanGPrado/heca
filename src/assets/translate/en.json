@@ -1,0 +1,111 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "contact": "Contact",
+    "call": "Call",
+    "language": "Language"
+  },
+  "home": {
+    "companyName": "Distribuciones Integrales HECA S.A. de C.V.",
+    "companyPresentation": "DIHECA is your best choice for water and chemical treatment in Mexico. We offer high-quality products and services at competitive prices, with a focus on safety and the environment.",
+    "titleAbout": "About Us",
+    "textAbout": "is a company founded in 2022 that is part of a consortium of leading companies in HIPRO-ecological water treatment, World Water Inc., and Rodcer Quimica de Mexico.",
+    "textAbout2": "Established to cater to the comprehensive chemical water treatment division and to comply with the regulations and legislation in the Republic of Mexico, for the supply of specialized technical service through the REPSE folio.",
+    "titleCarousel": "Our Products",
+    "listProducts": {
+      "titleProduct1": "Clarification and Filtration",
+      "titleProduct2": "Steam and Condensate Systems",
+      "titleProduct3": "Open and Closed Cooling Systems",
+      "titleProduct4": "Water treatment plant design",
+      "titleProduct5": "Paper Industry"
+    },
+    "buttonMoreInfo": "MORE INFORMATION",
+    "titleCoverage": "Nationwide Coverage",
+    "textCoverage1": "Presence, offices, and main warehouses",
+    "textCoverage2": "Current Presence",
+    "textCoverage3": "Projected Growth in 2024",
+    "titleClients": "Our Main Clients"
+  },
+  "about": {
+    "titleHeader": "Who Are We?",
+    "titleUs": "About Us",
+    "aboutUs": {
+      "textAboutUs1": "it's a company established in 2022, part of a consortium of leading water treatment companies",
+      "textAboutUs2": "Established to serve the integral chemical water treatment division and to comply with the regulations and legislation in the Republic of Mexico, for the provision of specialized technical service through the REPSE folio.",
+      "textAboutUs3": "it's a Mexican company with over 30 years of experience in water treatment. Distributor in Mexico of PAQUES®, a world leader in biological wastewater and biogas treatment. With a presence on 5 continents.",
+      "textAboutUs4": "It has the ISO-9001:2015, ISO-14001:2015, and ISO-45001:2018 certifications. Headquarters in Mexico City and Guadalajara, Mexico.",
+      "textAboutUs5": "a United States company with over 20 years of experience in chemical treatment through Reverse Osmosis for seawater and brackish water. Distributor of Dupont, Fedco, grundfos, Eri and Allen&Bradley technology. Headquarters in Los Angeles, California, USA, Ensenada, Baja California Norte, and Cancun, Quintana Roo in Mexico.",
+      "textAboutUs6": "it's a Mexican company with 12 years of experience in supplying raw materials for chemical water treatment with ISO-9001 certification. Headquarters in Altamira, Tamaulipas."
+    },
+    "titleMission": "Mission",
+    "textMission": "'s mission is to be a functional part of its clients' production processes, providing valuable solutions in chemical water treatment processes through specialized technical service and cutting-edge chemical products. Considering safety as the most important factor and positively impacting the environment.",
+    "titleVision": "Vision",
+    "textVision": "By 2030, position itself in the Top 3 of national water treatment companies. Recognized for its innovation in solutions, specialized technical service, technology, and quality in water treatment chemicals.",
+    "titlePolicy": "Quality Policy",
+    "textPolicy": "Our commitment is to supply quality products and services to satisfactorily exceed the needs and requirements of our customers. Based on our quality management system within a continuous improvement process.",
+    "titleAlliances": "Strategic Alliances",
+    "textAlliances": "To achieve our objectives, we have the best technological assets on the market worldwide, with the prestige and direct technical support of technology development companies such as:"
+  },
+  "contact": {
+    "titleHeader": "Contact Us!"
+  },
+  "product1": {
+    "expProduct": "The most complete range of products for separation applications.",
+    "products": {
+      "product1": "Anionic/Cationic Flocculants.",
+      "product2": "Organic and inorganic coagulants.",
+      "product3": "Media filter.",
+      "product4": "Sludge Thickeners."
+    }
+  },
+  "product2": {
+    "expProduct": "Treatments for low, medium, and high-pressure systems, condensate lines, as well as the new generation of oxygen scavengers that replace hydrazine.",
+    "products": {
+      "product1": "Scale Inhibitors Based on Maleic, Acrylic, and Phosphino Carboxylic Technologies",
+      "product2": "Corrosion Inhibitors with the Latest Developments in Oxygen Scavengers such as DEHA, Erythorbate, and Carbohydrazide among others.",
+      "product3": "Water-based and Solvent-based Defoamers.",
+      "product4": "Descalers and Passivating Agents."
+    }
+  },
+  "product3": {
+    "expProduct": "We have the most advanced treatments for open and closed cooling systems.",
+    "products": {
+      "product1": "Scale Inhibitors Based on Maleic and Acrylic Polymer, Copolymer, and Terpolymer Technologies",
+      "product2": "Corrosion Inhibitors Based on Molybdates, Zinc, Triazines, and Phosphonates (HPCA, HEDP, PBTC, and ATMP) among others",
+      "product3": "High-Efficiency Non-Oxidizing Microbicides: Biodegradable and Non-Polluting.",
+      "product4": "Oxidizing microbicides based on chlorine, bromine, their combinations and chlorine dioxide technologies.",
+      "product5": "Biodispersants in a wide variety.",
+      "product6": "Dispersants, corrosion and scaling inhibitors with inert fluorescent tracer for online measurement."
+    }
+  },
+  "product4": {
+    "expProduct": "We offer the design, construction, maintenance, and operation of...",
+    "products": {
+      "product1": "Clarifiers.",
+      "product2": "Multimedia and activated carbon filters.",
+      "product3": "Water softeners.",
+      "product4": "Ion Exchange Demineralizers.",
+      "product5": "Electron ionization.",
+      "product6": "Reverse Osmosis for brackish, reuse and sea water.",
+      "product7": "Ultrafiltration.",
+      "product8": "Wastewater treatment plants (Anaerobic/aerobic reactors)."
+    }
+  },
+  "product5": {
+    "expProduct": "Includes a wide variety of products for the process of both cellulose, flat papers, and tissue for the following applications...",
+    "products": {
+      "product1": "Reductive Bleaching (DBI).",
+      "product2": "Scale Inhibitors and Vacuum Pumps.",
+      "product3": "Defoamers.",
+      "product4": "Biodispersants.",
+      "product5": "Flocculants and Coagulants.",
+      "product6": "Oxidizing Microbicides",
+      "product7": "Non-oxidizing Microbicides.",
+      "product8": "Acidic/Alkaline Cleaners for Upholstery.",
+      "product9": "Chelating agents.",
+      "product10": "Stickies Removal."
+    }
+  }
+}

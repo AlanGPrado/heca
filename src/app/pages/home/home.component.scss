@@ -29,7 +29,7 @@ main {
     opacity: 1;
     width: 60%;
     height: auto;
-    z-index: 9;
+    z-index: 8;
 
     h1 {
       color: white;
@@ -108,6 +108,26 @@ main {
         text-align: left;
       }
     }
+  }
+
+  .carousel.slide {
+    margin-top: 2em;
+
+    .carousel-item {
+      text-align: center;
+      .button-mas {
+        color: white;
+        padding: 0 20px;
+        border-radius: 4px;
+        line-height: 2.85;
+        text-decoration: unset;
+        background-color: #353750;
+        display: inline-block;
+        // margin-bottom: 18px;
+        font-family: Candara, Calibri, 'Trebuchet MS', Arial, sans-serif;
+      }
+    }
+
   }
 
   .container-nuestros-productos {
@@ -275,6 +295,7 @@ main {
 
   .container-clientes {
     padding: 5em 0 5em 0;
+
     .content-clientes {
       h1 {
         text-align: center;
@@ -295,16 +316,29 @@ main {
 
   .scroll-item {
     display: inline-block;
-    width: fit-content;
-    height: fit-content;
+    width: 200px;
+    // height: auto;
     margin: 5px 20px 5px 20px;
-    text-align: center;
-    line-height: 100px;
+    // text-align: center;
+    // line-height: 100px;
 
     img {
       height: 100px;
-      width: auto;
+      width: 100%;
+      object-fit: contain;
     }
   }
 
+}
+
+.productos-title {
+  text-align: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.grid-container.two {
+  grid-template-columns: repeat(2, 1fr) !important;
 }

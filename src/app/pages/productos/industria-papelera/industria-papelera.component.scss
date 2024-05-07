@@ -1,0 +1,66 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+
+  h1 {
+    color: white;
+    font-size: 48px;
+    z-index: 1;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  // height: auto;
+
+  path {
+    // height: 240px;
+    fill: rgb(47, 53, 115);
+  }
+}
+
+.container-product {
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  .content-product {
+    width: 65%;
+
+    .info {
+      display: flex;
+      gap: 5%;
+      margin-top: 2.5em;
+
+      img {
+        width: 48%;
+        height: auto;
+        aspect-ratio: 4 / 3;
+        border-radius: 58% 42% 63% 37% / 38% 57% 43% 62%;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        list-style-type: square;
+      }
+
+      li {
+        font-size: 1.2em;
+      }
+
+      li::marker {
+        color: #353750 !important;
+      }
+    }
+  }
+}

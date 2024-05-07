@@ -1,5 +1,6 @@
 import { Component, HostListener } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header',
@@ -12,12 +13,21 @@ export class HeaderComponent {
   isContacto: boolean;
   showBurguer: boolean = false;
   showLanguages: boolean = false;
+  windowWidth: number = 0;
+  showProductsMobile: boolean = false;
 
-  constructor(private route: ActivatedRoute, router: Router) {
+  constructor(private route: ActivatedRoute, router: Router, private translate: TranslateService) {
     // this.isHomePage = this.route.snapshot.url.length === 0 || this.route.snapshot.url[0].path === '/';
     // this.isContacto = this.route.snapshot.url.length === 0 || this.route.snapshot.url[0].path === 'contacto';
     this.isContacto = router.url === "/contacto";
-    // console.log(this.isContacto)
+    this.windowWidth = window.innerWidth;
+    console.log(this.windowWidth,"KKKK")
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onResize() {
+    // Update window width on resize
+    this.windowWidth = window.innerWidth;
   }
 
   @HostListener('window:scroll', [])
@@ -25,15 +35,29 @@ export class HeaderComponent {
     this.isScrolled = window.pageYOffset > 100; // Change 100 to the scroll position you want
   }
 
+  changeLanguage(event: Event) {
+    const selectedLanguage = (event.target as HTMLElement).getAttribute('data-value');
+    if (selectedLanguage) {
+      this.translate.use(selectedLanguage);
+    }
+  }
+
   toggleDiv(event: MouseEvent) {
     this.showBurguer = !this.showBurguer;
     this.showLanguages = false;
     event.stopPropagation();
+    this.showProductsMobile = false;
+
   }
 
   toggleDiv2(event: MouseEvent) {
     this.showLanguages = !this.showLanguages;
     this.showBurguer = false;
+    event.stopPropagation();
+  }
+
+  toggleDiv3(event: MouseEvent) {
+    this.showProductsMobile = !this.showProductsMobile;
     event.stopPropagation();
   }
 

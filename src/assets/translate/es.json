@@ -1,0 +1,111 @@
+{
+  "header": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "products": "Productos",
+    "contact": "Contacto",
+    "call": "Llamar",
+    "language": "Idioma"
+  },
+  "home": {
+    "companyName": "Distribuciones Integrales HECA S.A. de C.V.",
+    "companyPresentation": "DIHECA es tu mejor opción para el tratamiento de aguas y químicos en México. Ofrecemos productos y servicios de alta calidad a precios competitivos, con un enfoque en la seguridad y el medio ambiente.",
+    "titleAbout": "¿Quiénes Somos?",
+    "textAbout": "es una empresa creada en 2022, que forma parte de un consorcio de empresas lideres en tratamiento quimico de agua HIPRO-ecologicos, World Water Inc. y Rodcer Quimica de Mexico.",
+    "textAbout2": "Creada para atender la división de tratamientos quimicos integrales de aguas y dar cumplimiento a las normativas y legislaciones en la Republica Mexicana, para el suministro de servicio tecnico especializado mediante el folio REPSE.",
+    "titleCarousel": "Nuestros Productos",
+    "listProducts": {
+      "titleProduct1": "Clarificación y filtración",
+      "titleProduct2": "Sistemas de Generación de Vapor y condensados",
+      "titleProduct3": "Sistemas de Enfriamiento abiertos y cerrados",
+      "titleProduct4": "Diseño de plantas de tratamiento de aguas",
+      "titleProduct5": "Industria Papelera"
+    },
+    "buttonMoreInfo": "MÁS INFORMACIÓN",
+    "titleCoverage": "Cobertura a nivel Nacional",
+    "textCoverage1": "Presencia, oficinas y almacenes principales",
+    "textCoverage2": "Presencia actual",
+    "textCoverage3": "Crecimiento proyectado en 2024",
+    "titleClients": "Nuestros Principales Clientes"
+  },
+  "about": {
+    "titleHeader": "¿Quiénes somos?",
+    "titleUs": "Nosotros",
+    "aboutUs": {
+      "textAboutUs1": "es una empresa creada en 2022, que forma parte de un consorcio de empresas lideres en tratamiento quimico de agua",
+      "textAboutUs2": "Creada para atender la división de tratamientos quimicos integrales de aguas y dar cumplimiento a las normativas y legislaciones en la Republica Mexicana, para el suministro de servicio tecnico especializado mediante el folio REPSE.",
+      "textAboutUs3": "empresa mexicana de más de 30 años de experiencia en tratamiento de agua. Distribuidor en Mexico de PAQUES® lider mundial en tratamiento biologico de efluentes y biogas. Con presencia en los 05 continentes.",
+      "textAboutUs4": "cuenta con las certificaciones ISO-9001:2015, ISO-14001:2015 E ISO-45001:2018. Oficinas centrales en Ciudad de México y Guadalajara en México.",
+      "textAboutUs5": "empresa de Estados Unidos con más de 20 años de experiencia en tratamiento quimico por medio de Osmosis Inversa a agua de Mar y salobre. Distribuidor de tecnologia Dupont, Fedco, grundfos, recuperdores Eri y Allen&Bradley. Oficinas centrales en Los Angeles California, USA, Ensenada, Baja California Norte y Cancun, Quintana Roo en Mexico.",
+      "textAboutUs6": "empresa mexicana de 12 años de experiencia en suminitro de materias primas para tratamiento quimico de agua con certificación ISO-9001. Oficinas centrales en Altamira, Tamaulipas."
+    },
+    "titleMission": "Misión",
+    "textMission": " tiene como misión el Ser parte funcional en los procesos productivos de sus clientes, aportando soluciones de valor en procesos de tratamiento químico de agua, mediante un servicio tecnico especializado y productos quimicos de vanguardia. Considerando a la seguridad como factor más importante e impactando de manera positivo al medio ambiente.",
+    "titleVision": "Visión",
+    "textVision": "En 2030 posicionarse en el Top 3 a nivel nacional de empresas de tratamiento quimico Integral de aguas. Reconocida por su innovación en soluciones, servicio tecnico especializado, tecnologia y calidad en productos quimicos para tratamiento de aguas.",
+    "titlePolicy": "Política de Calidad",
+    "textPolicy": "Nuestro compromiso es suministrar productos y servicios de calidad para superar satisfactoriamente las necesidades y requerimientos de nuestros clientes. Basado en nuestro sistema de gestion de calidad dentro de un proceso de mejora continua",
+    "titleAlliances": "Alianzas Estratégicas",
+    "textAlliances": "Para lograr los objetivos, contamos con los mejores activos tecnológicos del mercado a nivel mundial, contando con el prestigio y soporte tecnico directo de empresas desarrolladoras de tecnologia como:"
+  },
+  "contact": {
+    "titleHeader": "¡Contáctanos!"
+  },
+  "product1": {
+    "expProduct": "La gama más completa de productos para aplicaciones de separación.",
+    "products": {
+      "product1": "Floculantes anionico/cationicos.",
+      "product2": "Coagulantes organicos e inorganicos.",
+      "product3": "Medios filtrantes.",
+      "product4": "Espesadores de Lodos."
+    }
+  },
+  "product2": {
+    "expProduct": "Tratamientos para sistemas de baja, mediana y alta presión, líneas de vapor condensado, así como la nueva generación de secuestrantes de oxígeno sustitutos de hidracina.",
+    "products": {
+      "product1": "Inhibidores de Incrustación base tecnologías de Maleico, Acrílico y Fosfino carboxílico.",
+      "product2": "Inhibidores de Corrosión con los desarrollos más recientes en eliminadores de oxígeno como DEHA, Eritorbiato y Carbohidracida entre otras.",
+      "product3": "Antiespumantes diversos bases agua o solvente.",
+      "product4": "Desincrustantes y agentes pasivadores."
+    }
+  },
+  "product3": {
+    "expProduct": "Contamos con los tratamientos más avanzados para sistemas de enfriamiento, abiertos y cerrados.",
+    "products": {
+      "product1": "Inhibidores de Incrustación a base de polímeros, copolímeros y terpolímeros de las tecnologías de Maleico y Acrílico.",
+      "product2": "Inhibidores de Corrosión a base de molibdatos, zinc, triazinas y fosfonatos HPCA, HEDP, PBTC y ATMP entre otros.",
+      "product3": "Microbicidas No Oxidantes de alta efectividad, biodegradables y no contaminantes.",
+      "product4": "Microbicidas Oxidantes basados en tecnologías de cloro, bromo, sus combinaciones y dióxido de cloro.",
+      "product5": "Biodispersantes en una amplia variedad.",
+      "product6": "Dispersantes, inhibidores corrosión e incrustación con trazador fluorescente inerte para medición en línea."
+    }
+  },
+  "product4": {
+    "expProduct": "Ofrecemos el servicio de diseño, construcción, mantenimiento y operación de...",
+    "products": {
+      "product1": "Clarificadores.",
+      "product2": "Filtros Multimedia y de carbón.",
+      "product3": "Suavizadores.",
+      "product4": "Desmineralizadores por Intercambio Iónico.",
+      "product5": "Ionización electrónica.",
+      "product6": "Osmosis Inversa para agua Salobre, reuso y de Mar.",
+      "product7": "Ultra filtración.",
+      "product8": "Plantas de tratamiento de aguas residuales (Reactores anaerobicos/aerobicos)."
+    }
+  },
+  "product5": {
+    "expProduct": "Incluye toda una amplia variedad de productos para proceso tanto de celulosa, papeles planos y tissue las siguientes aplicaciones...",
+    "products": {
+      "product1": "Blanqueo Reductivo (DBI).",
+      "product2": "Inhibidores de Incrustación bombas de vacío.",
+      "product3": "Antiespumantes.",
+      "product4": "Biodispersantes.",
+      "product5": "Floculantes y Coagulantes.",
+      "product6": "Microbicidas Oxidantes.",
+      "product7": "Microbicidas No Oxidantes.",
+      "product8": "Limpiadores ácidos/alcalinos para vestiduras.",
+      "product9": "Quelantes.",
+      "product10": "Removedores de Stickies."
+    }
+  }
+}
