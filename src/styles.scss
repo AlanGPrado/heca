@@ -297,7 +297,7 @@ ul {
     // margin-top: 30em !important;
 
     .content-contact {
-      height: 780px !important;
+      height: 800px !important;
 
       .icon {
         left: 0 !important;
@@ -308,7 +308,7 @@ ul {
       }
 
       .pin {
-        bottom: 27% !important;
+        bottom: 30% !important;
       }
 
       .phone {
@@ -323,6 +323,9 @@ ul {
         display: flex !important;
         flex-direction: column !important;
 
+        p {
+          font-size: 19px !important;
+        }
         div {
           max-width: 100% !important;
         }
@@ -333,7 +336,8 @@ ul {
         }
 
         .email {
-          padding-bottom: 50px !important;
+          padding-top: 20px !important;
+          padding-bottom: 80px !important;
         }
 
         .adress {
