@@ -21,7 +21,6 @@ export class HeaderComponent {
     // this.isContacto = this.route.snapshot.url.length === 0 || this.route.snapshot.url[0].path === 'contacto';
     this.isContacto = router.url === "/contacto";
     this.windowWidth = window.innerWidth;
-    console.log(this.windowWidth,"KKKK")
   }
 
   @HostListener('window:resize', ['$event'])
