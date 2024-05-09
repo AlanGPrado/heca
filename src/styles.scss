@@ -334,17 +334,28 @@ ul {
         }
 
         .phone-num {
-          padding-top: 60px !important;
-          padding-bottom: 105px !important;
+          // padding-top: 60px !important;
+          // padding-bottom: 105px !important;
+          position: absolute !important;
+          top: 10% !important;
         }
 
         .email {
-          padding-top: 20px !important;
-          padding-bottom: 80px !important;
+          // padding-top: 20px !important;
+          // padding-bottom: 80px !important;
+          position: absolute !important;
+          top: 33% !important;
+        }
+
+        .adress-1 {
+          position: absolute;
+          bottom: 40%;
         }
 
         .adress {
-          padding-top: 100px !important;
+          // padding-top: 100px !important;
+          position: absolute !important;
+          bottom: 5% !important;
         }
       }
     }
